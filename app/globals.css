@@ -85,9 +85,16 @@ body {
   border-radius: 3px;
   padding: 5px 8px;
   font-size: 13px;
-  width: 200px;
+  width: 120px;
+  max-width: 100%;
   float: left;
   margin-right: 5px;
+}
+
+@media (min-width: 480px) {
+  .searchInput {
+    width: 200px;
+  }
 }
 
 .searchGo {

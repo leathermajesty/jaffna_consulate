@@ -100,11 +100,11 @@ export default function Home() {
 
               <div className="space-y-6">
                 {[1, 2].map((i) => (
-                  <div key={i} className="group bg-gray-50 border border-gray-100 p-8 rounded-[32px] hover:bg-white hover:shadow-2xl transition-all duration-500 relative overflow-hidden">
-                    <div className="flex items-start gap-6">
-                      <div className="shrink-0 w-16 h-16 bg-white rounded-2xl flex flex-col items-center justify-center shadow-sm border border-gray-100 group-hover:bg-saffron-500 group-hover:border-saffron-500 transition-colors">
-                        <span className="text-[10px] font-black text-gray-400 group-hover:text-white/80 uppercase">Apr</span>
-                        <span className="text-2xl font-black text-navy-900 group-hover:text-white leading-none">{15 + i}</span>
+                  <div key={i} className="group bg-gray-50 border border-gray-100 p-4 sm:p-8 rounded-[32px] hover:bg-white hover:shadow-2xl transition-all duration-500 relative overflow-hidden">
+                    <div className="flex items-start gap-3 sm:gap-6">
+                      <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-2xl flex flex-col items-center justify-center shadow-sm border border-gray-100 group-hover:bg-saffron-500 group-hover:border-saffron-500 transition-colors">
+                        <span className="text-[9px] sm:text-[10px] font-black text-gray-400 group-hover:text-white/80 uppercase">Apr</span>
+                        <span className="text-xl sm:text-2xl font-black text-navy-900 group-hover:text-white leading-none">{15 + i}</span>
                       </div>
                       <div className="flex-1">
                         <h4 className="text-xl font-bold text-navy-900 mb-2 group-hover:text-saffron-600 transition-colors">
@@ -137,10 +137,10 @@ export default function Home() {
 
               <div className="space-y-6">
                 {[1, 2].map((i) => (
-                  <div key={i} className="group bg-gray-50 border border-gray-100 p-8 rounded-[32px] hover:bg-white hover:shadow-2xl transition-all duration-500 relative overflow-hidden">
-                    <div className="flex items-start gap-6">
-                      <div className="shrink-0 w-16 h-16 bg-white rounded-2xl border-2 border-green-600/20 flex flex-col items-center justify-center group-hover:bg-green-600 group-hover:border-green-600 transition-colors">
-                        <svg className="w-8 h-8 text-green-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div key={i} className="group bg-gray-50 border border-gray-100 p-4 sm:p-8 rounded-[32px] hover:bg-white hover:shadow-2xl transition-all duration-500 relative overflow-hidden">
+                    <div className="flex items-start gap-3 sm:gap-6">
+                      <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-2xl border-2 border-green-600/20 flex flex-col items-center justify-center group-hover:bg-green-600 group-hover:border-green-600 transition-colors">
+                        <svg className="w-6 h-6 sm:w-8 sm:h-8 text-green-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
                       </div>
@@ -179,7 +179,7 @@ export default function Home() {
         <div className="absolute bottom-1/4 left-0 w-[300px] h-[300px] bg-white/5 rounded-full -ml-32 parallax-snappy" data-parallax="-0.4" data-parallax-x="-0.2"></div>
 
         <div className="container mx-auto px-4 max-w-7xl relative z-10">
-          <div className="flex flex-col md:flex-row items-center gap-16 bg-white/5 backdrop-blur-md p-10 md:p-16 rounded-[40px] border border-white/10 shadow-2xl">
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16 bg-white/5 backdrop-blur-md p-6 sm:p-10 md:p-16 rounded-[40px] border border-white/10 shadow-2xl overflow-hidden">
 
             <div className="w-full md:w-1/3 shrink-0 flex justify-center">
               <div className="relative group parallax-snappy" data-parallax="0.15" data-parallax-x="-0.1">
