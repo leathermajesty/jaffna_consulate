@@ -58,12 +58,13 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="bg-white pt-[15px] pb-[39px] border-b border-gray-200 overflow-x-hidden" aria-label="Main Header">
-      <div className="container mx-auto px-4 flex flex-col lg:flex-row justify-between items-center lg:items-start gap-6">
+    <header className="bg-white pt-[15px] pb-[39px] border-b border-gray-200" aria-label="Main Header">
+      <div className="container mx-auto px-4 flex flex-col lg:flex-row justify-between items-center lg:items-start gap-8">
         
         {/* LEFT SECTION */}
-        <div className="flex flex-row items-center text-left gap-3 w-full lg:w-auto min-w-0">
+        <div className="flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-4 lg:gap-6 w-full lg:w-auto">
           <div className="shrink-0">
+            {/* Using standard img for external SVG as Next/Image strict domains are likely unconfigured */}
             <img 
               title="Emblem of India" 
               src="https://www.indiainnewyork.gov.in/images/Emblem_of_India.svg" 
@@ -71,14 +72,14 @@ export default function Header() {
               width="45" 
               height="100" 
               loading="lazy"
-              className="h-16 w-auto md:h-[90px] object-contain drop-shadow-sm"
+              className="h-20 w-auto md:h-[90px] object-contain drop-shadow-sm"
             />
           </div>
-          <div className="flex flex-col justify-center min-w-0">
-            <h1 className="text-lg sm:text-2xl md:text-[28px] font-bold text-navy-900 m-0 tracking-tight leading-tight break-words">
+          <div className="flex flex-col justify-center h-full pt-1">
+            <h1 className="text-2xl md:text-[28px] font-bold text-navy-900 m-0 tracking-tight leading-tight">
               Consulate General of India
             </h1>
-            <span className="text-sm sm:text-lg md:text-xl text-gray-800 font-semibold m-0 mt-1 block">
+            <span className="text-lg md:text-xl text-gray-800 font-semibold m-0 mt-1 block">
               Jaffna, Sri Lanka
             </span>
           </div>
