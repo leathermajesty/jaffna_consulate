@@ -59,7 +59,7 @@ export default function Home() {
         <div className="w-full">
           <div className="overflow-hidden">
             <div className="marquee whitespace-nowrap text-white font-medium">
-              <span className="inline-block mr-8">Inviting applications for fully funded scholarship schemes by Government of India exclusively for Sri Lankan nationals</span>
+              <span className="inline-block mr-8">Invite applications for fully funded scholarship schemes by Government of India exclusively for Sri Lankan nationals</span>
               <span className="inline-block mr-8">Visit indbiz.gov.in for opportunities in Indian Economy</span>
               <span className="inline-block mr-8">Contribute your rendering of the National Anthem of India at rashtragaan.in</span>
               <span className="inline-block mr-8">The Indian Visa Service Application Centre in Jaffna reopens</span>
